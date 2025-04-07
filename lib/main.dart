@@ -46,7 +46,7 @@ class _UserSearchPageState extends State<UserSearchPage> {
         int.parse(id) < 1 ||
         int.parse(id) > 12) {
       setState(() {
-        _errorMessage = 'Por favor, digite um ID entre 1 e 12.';
+        _errorMessage = 'Usuário não encontrado!';
         _isLoading = false;
       });
       return;
