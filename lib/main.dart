@@ -76,7 +76,7 @@ class _UserSearchPageState extends State<UserSearchPage> {
       }
     } catch (e) {
       setState(() {
-        _errorMessage = 'Erro ao conectar à API.';
+        _errorMessage = 'Erro ao conectar com a API.';
         _isLoading = false;
       });
     }
